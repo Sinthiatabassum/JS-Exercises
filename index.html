@@ -2,10 +2,38 @@
 <html>
 <head>
   <title>JavaScript Exercises</title>
-  <!-- Insert your JavaScript file -->
+  <script src = "script.js"></script> -->
 </head>
 <body>
   <h3>Basic JavaScript Exercises</h3>
   <!-- Insert script -->
+  <csript>
+    console.log("external JS")
+  </csript>
 </body>
 </html>
+//task 5
+var cart = [ 
+   {
+       name: 'Shoes',
+       price: 560,
+       quantity: 4
+   },
+   {
+       name: 'Regular Tees',
+       price: 455.50,
+       quantity: 6
+   },
+   {
+       name: 'Socks',
+       price: 65.99,
+       quantity: 2
+   }];
+//task 5 a
+function addItem(newItem){
+cart.push(newItem);
+console.log(cart);
+}
+
+var newItem={name: "watch", price: 64, quantity: 1};
+addItem(newItem);
